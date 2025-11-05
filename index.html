@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FoodMan Website</title>
+    <!-- font awesome added -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- css added -->
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <!-- desktop header starts-->
+    <header>
+      <div class="header-left">
+        <div class="logo">
+          <img
+            class="logo-img"
+            src="/images/website-logo.png"
+            alt="foodman logo"
+          />
+        </div>
+        <nav class="flex">
+          <ul class="flex">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#dishes">Special</a></li>
+            <li><a href="#variety">Menu</a></li>
+            <li><a href="#chef">Chef</a></li>
+            <li><a href="#client">Reviews</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header-right">
+        <form action="#">
+          <input
+            class="search-bar"
+            type="search"
+            placeholder="search dishes here..."
+          />
+          <i class="fa fa-search"></i>
+        </form>
+      </div>
+    </header>
+    <!-- desktop header ends -->
+
+    <!-- home page starts -->
+    <section id="hero">
+      <div class="spacer"></div>
+      <div class="container flex">
+        <div class="hero-content-left">
+          <h1 class="hero-title1 mb-1 anim1" style="animation-delay: 1s">
+            Meet, Eat & Enjoy The <span class="hero-title2">True Taste.</span>
+          </h1>
+          <p class="title-info anim1" style="animation-delay: 1.5s">
+            Discover the true essence of culinary delight as you meet, eat and
+            savor the authentic flavors that define our passion for food.
+          </p>
+          <button class="main-btn anim1" style="animation-delay: 2s">
+            Get Started
+          </button>
+        </div>
+        <div class="hero-content-right">
+          <img
+            class="hero-img"
+            src="/images/hero-img.png"
+            alt="bowl full of delicious food"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- home page ends -->
+
+    <!-- special dishes page -->
+    <section id="dishes">
+      <div class="container">
+        <div class="section-title">
+          <h2 class="main-title fade-left">Our Special Dish</h2>
+          <p class="title-info2 fade-left">
+            Each dish promises an unforgettable dining experience, blending
+            innovation with tradition to delight your senses.
+          </p>
+        </div>
+        <div class="special-dish fade-right">
+          <div class="dish-card">
+            <img src="/images/momos.png" alt="plate of momos" />
+            <h4>Tibetan Momo Magic</h4>
+            <p>
+              Steamed to perfection, these bite-sized delights are packed with
+              flavor and served with a side of tangy, spicy dipping sauce,
+              varites are available.
+            </p>
+            <div class="price">
+              <span>$12.50</span
+              ><button class="main-btn cart-btn">Add to Cart</button>
+            </div>
+          </div>
+          <div class="dish-card active">
+            <img src="/images/paneer-tikkaa.png" alt="paneer-tikka plate" />
+            <h4>Grilled Paneer Tikka</h4>
+            <p>
+              Marinated in a blend of aromatic spices and yogurt, our paneer
+              tikka is grilled to perfection and served with a side of creamy
+              sauce.
+            </p>
+            <div class="price">
+              <span>$15.80</span
+              ><button class="main-btn cart-btn">Add to Cart</button>
+            </div>
+          </div>
+          <div class="dish-card">
+            <img src="/images/chiken-rice.png" />
+            <h4>Chicken Rice Bliss</h4>
+            <p>
+              The delicious chicken rice is made with aromatic spices, tender
+              chicken, and fluffy rice, this classic comfort food i sure to warm
+              your heart.
+            </p>
+            <div class="price">
+              <span>$20.30</span
+              ><button class="main-btn cart-btn">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- special dishes page -->
+
+    <!-- food variety page starts -->
+    <section id="variety">
+      <div class="container flex">
+        <div class="variety-content-left">
+          <img src="/images/variety-food-plate.jpg" alt="fast food together" />
+        </div>
+        <div class="variety-content-right">
+          <h2 class="main-title anim2" style="transition-delay: 0.5s">
+            We Serve Healthy & Tasty Food
+          </h2>
+          <p class="title-info2 anim2" style="transition-delay: 1s">
+            Indulge guit-free with our commitment to serving wholesome and
+            delicious meals. Explore a menu curated to balance taste and
+            nutrition ensuring every bite is both satisfying and nourshinng.
+          </p>
+          <button
+            class="main-btn cart-btn anim2"
+            style="transition-delay: 1.5s"
+          >
+            Explore Story
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- food variety page ends -->
+
+    <!-- food process page starts -->
+    <section id="process">
+      <div class="container flex2">
+        <div class="process-box box1" style="transition-delay: 0.1s">
+          <i class="fa-solid fa-utensils"></i>
+          <h5>order your food</h5>
+          <p>
+            Seamlessly place your food orders online with just a few clicks.
+            Enjoy convenience and efficiency as you select from our diverse menu
+            of delectable dishes.
+          </p>
+          <a href="#">read more</a>
+        </div>
+        <div class="process-box box2" style="transition-delay: 0.2s">
+          <i class="fa-solid fa-truck-moving"></i>
+          <h5>pick your food</h5>
+          <p>
+            Customize your dining experience by choosing from a tantalizing
+            array of options. For savory, sweet, or in between craving, find the
+            perfect meal to satisfy your appetite.
+          </p>
+          <a href="#">read more</a>
+        </div>
+        <div class="process-box box3" style="transition-delay: 0.3s">
+          <i class="fa-solid fa-star"></i>
+          <h5>enjoy your food</h5>
+          <p>
+            Sit back, relax, and savor the flavors as your meticulously prepared
+            meal arrives. Delight in the deliciousness of every bite, knowing
+            that your satisfaction is our top priority.
+          </p>
+          <a href="#">read more</a>
+        </div>
+      </div>
+    </section>
+    <!-- food process page ends -->
+
+    <!-- chef page starts -->
+    <section id="chef">
+      <div class="container flex">
+        <div class="chef-content">
+          <h2 class="main-title chef-trans" style="transition-delay: 0.2s">
+            Cooked By The Best Chefs In The World
+          </h2>
+          <p class="title-info2 chef-trans" style="transition-delay: 0.5s">
+            Experience culinary excellence crafted by master chefs from around
+            the globe. Our team of culinary virtuosos brings together expertise,
+            Innovation, and passion to create unforgettable dining experiences
+            that redefine gastronomy.
+          </p>
+          <h6 class="chef-trans" style="transition-delay: 0.7s">
+            Savour culinary brilliance from master chefs worldwide.
+          </h6>
+          <h6 class="chef-trans" style="transition-delay: 0.9s">
+            Experience innovative creations with attention to detail.
+          </h6>
+          <h6 class="chef-trans" style="transition-delay: 1.1s">
+            Enjoy dishes crafted with an unwavering passion for perfection.
+          </h6>
+        </div>
+        <div class="chef-img chef-img-trans">
+          <div class="chef-bg-circle">
+            <img src="/images/chef.png" alt="chef holding hands" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- chef page ends -->
+
+    <!-- customers page starts -->
+    <section id="client" class="testimonials">
+      <div class="container flex3">
+        <h2 class="main-title">What Our Customers Are Saying</h2>
+        <p class="title-info2">
+          Discover firsthand experiences and testimonials from our valued
+          patrons. Explore the feedback and reviews that showcase our commitment
+          to quality, service, and customer satisfaction.
+        </p>
+        <div class="client-1 flex3">
+          <p class="client-says">
+            Foodman's culinary expertise never fails to impress! Every dish is a
+            masterpiece, bursting with flavor and freshness.
+          </p>
+          <div class="client-img">
+            <img src="/images/client2.jpg" alt="client image 1" />
+          </div>
+          <h6 class="client-name">David Leo</h6>
+          <p class="client-type">Business Executive</p>
+        </div>
+      </div>
+    </section>
+    <!-- customers page ends -->
+
+    <!-- footer starts -->
+    <footer>
+      <div class="container flex4">
+        <div class="footer-main">
+          <div class="footer-logo-img">
+            <img src="/images/website-logo.png" />
+          </div>
+          <p>
+            Embark on a gastronomic journey with FoodMan, where every bite tells
+            a story and every dish is crafted to perfection.
+          </p>
+        </div>
+        <div class="footer-list">
+          <h6 class="footer-title">Product</h6>
+          <ul>
+            <li>Menu</li>
+            <li>Specials</li>
+            <li>Meal Deals</li>
+            <li>Catering Options</li>
+            <li>Seasonal Offerings</li>
+          </ul>
+        </div>
+        <div class="footer-list">
+          <h6 class="footer-title">Information</h6>
+          <ul>
+            <li>About Us</li>
+            <li>Contact Us</li>
+            <li>Nutrition information</li>
+            <li>Allergen information</li>
+          </ul>
+        </div>
+        <div class="footer-list">
+          <h6 class="footer-title">Company</h6>
+          <ul>
+            <li>Our Story</li>
+            <li>Careers</li>
+            <li>Terms of service</li>
+            <li>Privacy Policy</li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer-right">
+        Copyright @2024 procoder09. All rights reserved.
+      </p>
+    </footer>
+    <!-- footer ends -->
+
+    <!-- js added -->
+    <script src="/js/script.js"></script>
+  </body>
+</html>
